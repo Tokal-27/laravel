@@ -19,4 +19,4 @@ jobs:
           username: ${{ secrets.BACKEND_USER }}
           key: ${{ secrets.BACKEND_SSH_KEY }}
           script: |
-            bash /var/www/backend/deploy.sh
+            bash /var/www/backend/laravel/deploy.sh
